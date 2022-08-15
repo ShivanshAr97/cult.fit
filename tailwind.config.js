@@ -15,6 +15,12 @@ module.exports = {
       width:{
         '3/10':'30%'
       },
+      gridTemplateRows: {
+        '10': 'repeat(10, minmax(0, 1fr))'
+      },
+      fontSize: {
+        'xx': '.625rem',
+      }
       
     },
   },

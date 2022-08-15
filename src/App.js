@@ -9,6 +9,9 @@ import Weight from './Weight';
 import Follow from './Follow';
 import MightLike from './MightLike';
 import Footer from './Footer';
+import Tags from './Tags';
+import Carousel from './Carousel';
+import CarouselSide from './CarouselSide';
 
 function App() {
   return (
@@ -16,8 +19,10 @@ function App() {
     <Navbar></Navbar>
     <hr />
     <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" />
-
-
+    <div className='flex'>
+    <Carousel></Carousel>
+    <CarouselSide></CarouselSide>
+    </div>
     <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />    
     <Newsletter></Newsletter>
     <Trending></Trending>
