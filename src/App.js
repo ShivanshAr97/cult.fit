@@ -1,5 +1,5 @@
 import './App.css';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 import Navbar from './Navbar';
 import Home from './Home';
@@ -24,25 +24,39 @@ import WellnessNav from './WellnessNav';
 import HealthyNav from './HealthyNav';
 import BehindNav from './BehindNav';
 import EngineeringNav from './EngineeringNav';
+import MindNav from './MindNav';
 
 function App() {
   return (
     <>
-    <Navbar></Navbar>
-<img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" />
-            <div className='flex'>
-                <Carousel></Carousel>
-                <CarouselSide></CarouselSide>
-            </div>
-            <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />
-            <Newsletter></Newsletter>
-            <Trending></Trending>
-            <Fitness></Fitness>
-            <Weight></Weight>
-            <MightLike></MightLike>
-            <Follow></Follow>
-            <Footer></Footer>
+      <Navbar></Navbar>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/fitness' element={<FitnessNav />} />
+        <Route path='/weightloss' element={<WeightNav />} />
+        <Route path='/healthyeating' element={<EatingNav />} />
+        <Route path='/healthymind' element={<HealthyNav />} />
+        <Route path='/wellness' element={<WellnessNav />} />
+        <Route path='/behindscenes' element={<BehindNav />} />
+        <Route path='/healthyeating' element={<HealthyNav />} />
+        <Route path='/engineering' element={<EngineeringNav />} />
+      </Routes>
 
+      
+      {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" />
+      <div className='flex'>
+        <Carousel></Carousel>
+        <CarouselSide></CarouselSide>
+      </div>
+      <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />
+      <Newsletter></Newsletter>
+      <Trending></Trending>
+      <Fitness></Fitness>
+      <Weight></Weight>
+      <MightLike></MightLike>
+      <Follow></Follow>
+      <Footer></Footer>
+ */}
 
 
 
@@ -51,31 +65,31 @@ function App() {
 
 
       {/* <Router> */}
-        {/* <Navbar></Navbar>
+      {/* <Navbar></Navbar>
         <hr /> */}
 
-        {/* <Routes>
+      {/* <Routes>
           <Route path="/"><Home></Home></Route>
         </Routes> */}
 
-        {/* <EngineeringNav></EngineeringNav> */}
-        {/* <BehindNav></BehindNav> */}
-        {/* <HealthyNav></HealthyNav> */}
-        {/* <WellnessNav></WellnessNav> */}
-        {/* <WeightNav></WeightNav> */}
-        {/* <EatingNav></EatingNav> */}
-        {/* <FitnessNav></FitnessNav> */}
-        {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" /> */}
-        {/* <div className='flex'>
+      {/* <EngineeringNav></EngineeringNav> */}
+      {/* <BehindNav></BehindNav> */}
+      {/* <HealthyNav></HealthyNav> */}
+      {/* <WellnessNav></WellnessNav> */}
+      {/* <WeightNav></WeightNav> */}
+      {/* <EatingNav></EatingNav> */}
+      {/* <FitnessNav></FitnessNav> */}
+      {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" /> */}
+      {/* <div className='flex'>
     <Carousel></Carousel>
     <CarouselSide></CarouselSide>
     </div> */}
-        {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />     */}
-        {/* <Newsletter></Newsletter> */}
-        {/* <Trending></Trending> */}
-        {/* <Fitness></Fitness>
+      {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />     */}
+      {/* <Newsletter></Newsletter> */}
+      {/* <Trending></Trending> */}
+      {/* <Fitness></Fitness>
     <Weight></Weight> */}
-        {/* <MightLike></MightLike>
+      {/* <MightLike></MightLike>
         <Follow></Follow>
         <Footer></Footer> */}
       {/* </Router> */}

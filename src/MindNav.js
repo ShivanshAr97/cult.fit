@@ -1,17 +1,17 @@
 import React from 'react'
-import banner7 from './banner7.jpg';
+import banner5 from './banner5.jpg';
 import Follow from './Follow';
 import Footer from './Footer';
 import MightLike from './MightLike';
 import Newsletter from './Newsletter';
 import Trending from './Trending';
 
-const HealthyNav = () => {
+const FitnessNav = () => {
   return (
     <>
-    <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner7} alt="" />
+    <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner5} alt="" />
     <p className='text-xs mx-16 my-2'><span className='cursor-pointer hover:underline'>Home</span><span className='text-gray-500'> / Categories / Healthy Mind</span></p>
-    <img className='mx-12 w-11/12 rounded-lg' src="https://global-uploads.webflow.com/5fe33d036237252135e3e74d/61f77677a848e84a1e8d7d70_Burnout_1300x860%20.jpg" alt="" />
+    <img className='mx-12 w-11/12 rounded-lg' src="https://global-uploads.webflow.com/5fe33d036237252135e3e74d/62a9a68014debfd5911ca621_BoxingForWeightLoss_08.jpg" alt="" />
     <Newsletter></Newsletter>
     <Trending></Trending>
     <MightLike></MightLike>
@@ -21,4 +21,4 @@ const HealthyNav = () => {
   )
 }
 
-export default HealthyNav
+export default FitnessNav

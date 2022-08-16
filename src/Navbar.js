@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './logo.png';
+import {Link} from "react-router-dom"
 
 const Navbar = () => {
     return (
@@ -7,20 +8,20 @@ const Navbar = () => {
             <nav className='sticky bg-white top-0 z-50 border-b'>
                 <div className='flex justify-between'>
                     <div className='flex cursor-pointer hover:text-num1'>
-                        <img className='my-5 ml-6 mr-3 w-10 h-10' src={logo} alt="" />
+                    <Link to="/"><img className='my-5 ml-6 mr-3 w-10 h-10' src={logo} alt="" /></Link>
                         <div>
-                        <p className='mt-7 font-inter font-bold '>The .fit Way</p>
+                        <Link to="/"><p className='mt-7 font-inter font-bold '>The .fit Way</p></Link>
                         </div>
                     </div>
                     
                     <ul className='flex mx-10'>
-                        <li className='ml-8 mr-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><a href="/FitnessNav">Fitness</a></li>
-                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><a href=""></a> Healthy Eating</li>
-                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Weight Loss</li>
-                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Wellness</li>
-                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Healthy Mind</li>
-                        <li className='mx-2 mt-6 px-2 my-4 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Behind the Scenes</li>
-                        <li className='mx-2 mt-6 px-2 my-4 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Engineering</li>
+                        <li className='ml-8 mr-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><Link to="/fitness">Fitness</Link></li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><Link to="/healthyeating">Healthy Eating</Link></li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><Link to="/weightloss">Weight Loss</Link></li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><Link to="/wellness">Wellness</Link></li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><Link to="/healthymind">Healthy Mind</Link></li>
+                        <li className='mx-2 mt-6 px-2 my-4 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><Link to="/behindscenes">Behind the Scenes</Link></li>
+                        <li className='mx-2 mt-6 px-2 my-4 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><Link to="/engineering">Engineering</Link></li>
                     </ul>
                     <div className='flex'>
                         <button className="btn my-6 mr-2 px-3 py-1 border rounded-md "><i class="fa-solid fa-magnifying-glass"></i></button>
