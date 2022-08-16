@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from "./logo.png"
-import apple from "./apple.svg"
-import google from "./googleplay.svg"
+import logo from "../images/logo.png"
+import apple from "../images/apple.svg"
+import google from "../images/googleplay.svg"
 
 const Footer = () => {
   return (

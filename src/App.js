@@ -1,30 +1,15 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
-import Navbar from './Navbar';
-import Home from './Home';
-
-
-import banner1 from './banner1.webp';
-import banner2 from './banner2.webp';
-import Newsletter from './Newsletter';
-import Trending from './Trending';
-import Fitness from './Fitness';
-import Weight from './Weight';
-import Follow from './Follow';
-import MightLike from './MightLike';
-import Footer from './Footer';
-import Tags from './Tags';
-import Carousel from './Carousel';
-import CarouselSide from './CarouselSide';
-import FitnessNav from './FitnessNav';
-import EatingNav from './EatingNav';
-import WeightNav from './WeightNav';
-import WellnessNav from './WellnessNav';
-import HealthyNav from './HealthyNav';
-import BehindNav from './BehindNav';
-import EngineeringNav from './EngineeringNav';
-import MindNav from './MindNav';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import FitnessNav from './nav_components/FitnessNav';
+import EatingNav from './nav_components/EatingNav';
+import WeightNav from './nav_components/WeightNav';
+import WellnessNav from './nav_components/WellnessNav';
+import HealthyNav from './nav_components/HealthyNav';
+import BehindNav from './nav_components/BehindNav';
+import EngineeringNav from './nav_components/EngineeringNav';
 
 function App() {
   return (
@@ -42,7 +27,7 @@ function App() {
         <Route path='/engineering' element={<EngineeringNav />} />
       </Routes>
 
-      
+
       {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" />
       <div className='flex'>
         <Carousel></Carousel>

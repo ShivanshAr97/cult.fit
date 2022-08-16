@@ -1,10 +1,10 @@
 import React from 'react'
-import banner6 from './banner6.jpg';
-import Follow from './Follow';
-import Footer from './Footer';
-import MightLike from './MightLike';
-import Newsletter from './Newsletter';
-import Trending from './Trending';
+import banner6 from '../banner/banner6.jpg';
+import Follow from '../components/Follow';
+import Footer from '../components/Footer';
+import MightLike from '../components/MightLike';
+import Newsletter from '../components/Newsletter';
+import Trending from '../components/Trending';
 
 const FitnessNav = () => {
   return (
