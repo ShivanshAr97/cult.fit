@@ -12,14 +12,15 @@ const Navbar = () => {
                         <p className='mt-7 font-inter font-bold '>The .fit Way</p>
                         </div>
                     </div>
+                    
                     <ul className='flex mx-10'>
-                        <li className='ml-8 mr-2 mt-6 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Fitness</li>
-                        <li className='mx-2 mt-6 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Healthy Eating</li>
-                        <li className='mx-2 mt-6 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Weight Loss</li>
-                        <li className='mx-2 mt-6 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Wellness</li>
-                        <li className='mx-2 mt-6 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Healthy Mind</li>
-                        <li className='mx-2 mt-6 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Behind the Scenes</li>
-                        <li className='mx-2 mt-6 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Engineering</li>
+                        <li className='ml-8 mr-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><a href="/FitnessNav">Fitness</a></li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'><a href=""></a> Healthy Eating</li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Weight Loss</li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Wellness</li>
+                        <li className='mx-2 mt-6 my-4 px-2 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Healthy Mind</li>
+                        <li className='mx-2 mt-6 px-2 my-4 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Behind the Scenes</li>
+                        <li className='mx-2 mt-6 px-2 my-4 py-3 rounded-md text-sm font-bold cursor-pointer hover:text-num1 hover:bg-red-50'>Engineering</li>
                     </ul>
                     <div className='flex'>
                         <button className="btn my-6 mr-2 px-3 py-1 border rounded-md "><i class="fa-solid fa-magnifying-glass"></i></button>
