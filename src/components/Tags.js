@@ -4,8 +4,9 @@ const Tags = () => {
     return (
         <>
             <div className='mx-4'>
-                <h1 className='border-b w-auto text-2xl font-bold rounded-sm mx-10  py-5'>Tags</h1>
-                <div className='mx-10 w-1/3 mt-6 mb-1 grid grid-flow-col auto-cols-max auto-rows-max'>
+                <h1 className='border-b w-auto text-2xl font-bold rounded-sm mx-10 py-5'>Tags</h1>
+                <p className='mx-10 -mt-1 border-b-2 border-black w-16'></p>
+                <div className='mx-10 w-1/3 mt-8 mb-1 grid grid-flow-col auto-cols-max auto-rows-max'>
                     <button className="btn border  px-2 py-1 m-1 rounded text-xx font-semibold hover:text-white hover:bg-num1 duration-300">STAMINA</button>
                     <button className="btn border  px-2 py-1 m-1 rounded text-xx font-semibold hover:text-white hover:bg-num1 duration-300">HANGOVER</button>
                     <button className="btn border  px-2 py-1 m-1 rounded text-xx font-semibold hover:text-white hover:bg-num1 duration-300">DESIGN</button>
