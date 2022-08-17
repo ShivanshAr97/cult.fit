@@ -11,6 +11,7 @@ import HealthyNav from './nav_components/HealthyNav';
 import BehindNav from './nav_components/BehindNav';
 import EngineeringNav from './nav_components/EngineeringNav';
 import NewBlog from './components/NewBlog';
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -27,59 +28,8 @@ function App() {
         <Route path='/behindscenes' element={<BehindNav />} />
         <Route path='/healthyeating' element={<HealthyNav />} />
         <Route path='/engineering' element={<EngineeringNav />} />
+        <Route path='/blog' element={<Blog/>} />
       </Routes>
-
-
-      {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" />
-      <div className='flex'>
-        <Carousel></Carousel>
-        <CarouselSide></CarouselSide>
-      </div>
-      <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />
-      <Newsletter></Newsletter>
-      <Trending></Trending>
-      <Fitness></Fitness>
-      <Weight></Weight>
-      <MightLike></MightLike>
-      <Follow></Follow>
-      <Footer></Footer>
- */}
-
-
-
-
-
-
-
-      {/* <Router> */}
-      {/* <Navbar></Navbar>
-        <hr /> */}
-
-      {/* <Routes>
-          <Route path="/"><Home></Home></Route>
-        </Routes> */}
-
-      {/* <EngineeringNav></EngineeringNav> */}
-      {/* <BehindNav></BehindNav> */}
-      {/* <HealthyNav></HealthyNav> */}
-      {/* <WellnessNav></WellnessNav> */}
-      {/* <WeightNav></WeightNav> */}
-      {/* <EatingNav></EatingNav> */}
-      {/* <FitnessNav></FitnessNav> */}
-      {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" /> */}
-      {/* <div className='flex'>
-    <Carousel></Carousel>
-    <CarouselSide></CarouselSide>
-    </div> */}
-      {/* <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />     */}
-      {/* <Newsletter></Newsletter> */}
-      {/* <Trending></Trending> */}
-      {/* <Fitness></Fitness>
-    <Weight></Weight> */}
-      {/* <MightLike></MightLike>
-        <Follow></Follow>
-        <Footer></Footer> */}
-      {/* </Router> */}
     </>
   );
 }
