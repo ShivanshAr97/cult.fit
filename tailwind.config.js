@@ -13,6 +13,7 @@ module.exports = {
         '4xl': '2.25rem'
       },
       width:{
+        '27/10':'27%',
         '3/10':'30%'
       },
       gridTemplateRows: {

@@ -10,6 +10,7 @@ import MightLike from './MightLike';
 import Footer from './Footer';
 import Carousel from './Carousel';
 import CarouselSide from './CarouselSide';
+import NewBlog from './NewBlog';
 
 const Home = () => {
     return (
@@ -24,8 +25,9 @@ const Home = () => {
             <Trending></Trending>
             <Fitness></Fitness>
             <Weight></Weight>
-            <MightLike></MightLike>
             <Follow></Follow>
+            <MightLike></MightLike>
+            
             <Footer></Footer>
         </>
     )

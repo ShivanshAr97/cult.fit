@@ -10,11 +10,13 @@ import WellnessNav from './nav_components/WellnessNav';
 import HealthyNav from './nav_components/HealthyNav';
 import BehindNav from './nav_components/BehindNav';
 import EngineeringNav from './nav_components/EngineeringNav';
+import NewBlog from './components/NewBlog';
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
+      <NewBlog></NewBlog>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/fitness' element={<FitnessNav />} />

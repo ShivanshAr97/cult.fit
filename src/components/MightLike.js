@@ -6,10 +6,12 @@ const MightLike = () => {
         <>
             <div className='mx-4'>
                 <h1 className='border-b w-auto text-2xl font-bold rounded-sm mx-8 my-4 py-5'>You might also like</h1>
+                <p className='mx-8 -mt-5 border-b-2 border-black w-16'></p>
                 <div className="flex">
                 <div>
-                    <div className='my-8 flex'>
-                        <img className='ml-4 mr-12 h-52 w-72 rounded-lg cursor-pointer hover:scale-110 translate-x-4 ease-in duration-300' src="https://global-uploads.webflow.com/5fe33d036237252135e3e74d/61f775c88286b05a9be92c05_WaterWeight_1200x800.jpg" alt="" />
+                    <div className='mt-12 mb-8 flex'>
+                        <img className='ml-4 mr-12 h-52 w-72 rounded-lg relative cursor-pointer hover:scale-110 translate-x-4 ease-in duration-300' src="https://global-uploads.webflow.com/5fe33d036237252135e3e74d/61f775c88286b05a9be92c05_WaterWeight_1200x800.jpg" alt="" />
+                        <p className='absolute text-white font-bold bg-black p-2 rounded-full text-xx bg-opacity-50 z-20'>Weight Loss</p>
                         <div className='flex flex-col'>
                             <h1 className='font-bold text-2xl my-2 cursor:pointer hover:underline'>
 The H-To-O Of Water Weight: Everything You Need To Know</h1>
