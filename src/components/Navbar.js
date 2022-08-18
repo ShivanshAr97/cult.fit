@@ -25,7 +25,7 @@ const Navbar = () => {
                     </ul>
                     <div className='flex'>
                         <button className="btn my-6 mr-2 px-3 py-1 border rounded-md "><i class="fa-solid fa-magnifying-glass"></i></button>
-                        <button className="btn flex text-white font-bold rounded-lg bg-num1 px-5 py-2 mr-6 my-6 text-sm"><i class="my-1 fa-solid fa-envelope"></i> &nbsp; Subscribe</button>
+                        <button className="btn flex text-white font-bold rounded-lg bg-num1 px-4 py-2 mr-6 my-6 text-sm m-1"> <Link to="/email"><i class="fa-solid fa-envelope"></i> &nbsp; Subscribe</Link></button>
                     </div>
                 </div>
             </nav>

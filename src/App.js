@@ -12,12 +12,14 @@ import BehindNav from './nav_components/BehindNav';
 import EngineeringNav from './nav_components/EngineeringNav';
 import NewBlog from './components/NewBlog';
 import Blog from './components/Blog';
+import Email from './nav_components/Email';
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <NewBlog></NewBlog>
+      
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/fitness' element={<FitnessNav />} />
@@ -29,6 +31,7 @@ function App() {
         <Route path='/healthyeating' element={<HealthyNav />} />
         <Route path='/engineering' element={<EngineeringNav />} />
         <Route path='/blog' element={<Blog/>} />
+        <Route path='/email' element={<Email/>} />
       </Routes>
     </>
   );
