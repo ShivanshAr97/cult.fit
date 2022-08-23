@@ -1,7 +1,7 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
-import Navbar2 from './components/Navbar2';
+// import Navbar2 from './components/Navbar2';
 import Home2 from './components/Home2';
 import FitnessNav from './nav_components/FitnessNav';
 import EatingNav from './nav_components/EatingNav';
@@ -17,7 +17,7 @@ import Email from './nav_components/Email';
 function App() {
   return (
     <>
-      <Navbar2></Navbar2>
+      {/* <Navbar2></Navbar2> */}
       <NewBlog></NewBlog>
       
       <Routes>
