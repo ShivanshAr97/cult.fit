@@ -1,8 +1,8 @@
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 
-import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Navbar2 from './components/Navbar2';
+import Home2 from './components/Home2';
 import FitnessNav from './nav_components/FitnessNav';
 import EatingNav from './nav_components/EatingNav';
 import WeightNav from './nav_components/WeightNav';
@@ -17,11 +17,11 @@ import Email from './nav_components/Email';
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar2></Navbar2>
       <NewBlog></NewBlog>
       
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<Home2 />} />
         <Route path='/fitness' element={<FitnessNav />} />
         <Route path='/weightloss' element={<WeightNav />} />
         <Route path='/healthyeating' element={<EatingNav />} />

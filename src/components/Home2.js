@@ -15,9 +15,11 @@ import NewBlog from './NewBlog';
 const Home = () => {
     return (
         <>
-            <img className='flex rounded-lg my-4 mx-8' src="https://global-uploads.webflow.com/5fe33d02bcae60657c07a6a9/61a5b68d2fd41728419395fd_The.fitBlog-Banner-mobile.webp" alt="" />
+            <img className='flex mx-auto my-6 w-11/12 rounded-lg' src={banner1} alt="" />
+            <div className='flex'>
                 <Carousel></Carousel>
                 <CarouselSide></CarouselSide>
+            </div>
             <img className='flex mx-auto my-6 w-11/12 rounded-lg cursor-pointer' src={banner2} alt="" />
             <Newsletter></Newsletter>
             <Trending></Trending>
